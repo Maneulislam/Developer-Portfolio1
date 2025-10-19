@@ -31,7 +31,7 @@ nav li {
 
 .header{
     background: #FFF8F3;
-    background-image: url('../portfolio-resources/images/header_bg.png'), url('../portfolio-resources/images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
@@ -68,10 +68,10 @@ nav{
     align-items:center;
 }
 
-/* .hardy-image{
+.hardy-image{
     margin-right: -1000px;
 
-} */
+}
 
 
 
@@ -268,6 +268,24 @@ nav{
 
 
 .contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+
+
+.contact a{
+    text-decoration: none;
+}
+
+
+contact input, textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
